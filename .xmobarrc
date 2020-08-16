@@ -1,5 +1,4 @@
 Config { font = "xft:Bitstream Vera Sans Mono:size=9:bold:antialias=true"
-	--font = "-*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*"
         , borderColor = "black"
         , border = TopB
         , bgColor = "black"
@@ -13,8 +12,15 @@ Config { font = "xft:Bitstream Vera Sans Mono:size=9:bold:antialias=true"
                         , Run Com "uname" ["-s","-r"] "" 36000
                         , Run Date "%a %b %_d %Y %H:%M" "date" 10
                         , Run StdinReader
+                        , Run Battery [ "--template" , "Batt: <acstatus>"
+                                      , "-L", "10", "-H", "80", "--normal", "green", "--high", "red"
+                                      , "--" -- Battery specific options
+                                      , "-o", "<left>% (<timeleft>)" -- discharging
+                                      , "-O", "<fc=#dAA520>Charging</fc>" -- AC "on" status
+                                      , "-i", "<fc=#006000>Charged</fc>" -- charged status
+                                      ] 50
                         ]
         , sepChar = "%"
         , alignSep = "}{"
-        , template = "%StdinReader% | %cpu% | %memory% * %swap% | %eth0% - %eth1% }{<fc=#ee9a00>%date%</fc> | %uname% "
+        , template = "%StdinReader% | %cpu% | %memory% * %swap% | %eth0% - %eth1% }{<fc=#ee9a00>%date%</fc> | %uname% | %battery%"
         }
