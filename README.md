@@ -10,9 +10,11 @@
 
 ### To look into:
 * taking screenshots: https://github.com/supki/xmonad-screenshot
+* file explorer: https://wiki.archlinux.org/index.php/ranger
 
 ### Terminal
 * [rxvt-unicode](https://wiki.gentoo.org/wiki/Rxvt-unicode)
+* [fzf](https://github.com/junegunn/fzf)
 
 ## How to
 
