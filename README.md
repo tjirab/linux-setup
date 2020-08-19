@@ -1,5 +1,12 @@
 # XNomad and terminal config
 
+# Tools used
+* [Lux](https://github.com/Ventto/lux) allows to control brightness thru xmonad.
+* [fzf](https://github.com/junegunn/fzf) is a useful command-line tool to filter content and search history.
+* [p10k](https://github.com/romkatv/powerlevel10k) is a nice theme for Zsh.
+* [xmonad](https://github.com/xmonad/xmonad) is a great window manager tool for Linux.
+* [xmobar](https://hackage.haskell.org/package/xmobar) is a text based status bar to use with xmonad.
+
 ## Links
 * installation of Xmonad: https://xmonadhaskell.wordpress.com/2018/10/22/xmonad-ubuntu-18-04-install/
 * Xmobar for info bar https://xmonadhaskell.wordpress.com/2018/10/22/xmobar-configure
