@@ -2,7 +2,6 @@
 Inspired by (read: shamelessly copied from):
 * https://hackage.haskell.org/package/xmonad-contrib-bluetilebranch-0.9.1.4/docs/XMonad-Hooks-DynamicLog.html
 * https://gist.github.com/Soft/763129
-* https://askubuntu.com/questions/987537/fn-keys-in-xmonad-on-dell-xps-15
 -}
 import XMonad
 import XMonad.Config.Desktop
