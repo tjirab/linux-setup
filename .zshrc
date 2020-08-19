@@ -12,6 +12,9 @@ export PATH=/home/bart/.local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="/home/bart/.oh-my-zsh"
 
+# Source aliases
+. ~/.aliases
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

@@ -14,6 +14,7 @@
 * xmobar: https://hackage.haskell.org/package/xmobar-0.35.1#readme
 * [xnomad, xmobar tips](https://beginners-guide-to-xmonad.readthedocs.io/intro.html)
 * [Haskell general xmonah.hs congif tips](https://wiki.haskell.org/Xmonad/General_xmonad.hs_config_tips)
+* [fzf](https://medium.com/better-programming/boost-your-command-line-productivity-with-fuzzy-finder-985aa162ba5d#9ce6): some customisation tips and tricks
 
 ### To look into:
 * taking screenshots: https://github.com/supki/xmonad-screenshot
@@ -52,3 +53,6 @@
 
 ### How to paste in rxvt-unicode
 - `SHIFT`+`Insert`
+
+### Use fzf
+- `CTRL+T` show contents of current directory
