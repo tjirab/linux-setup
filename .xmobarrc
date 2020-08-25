@@ -13,7 +13,7 @@ Config { font = "xft:Ubuntu Mono:size=10:bold:antialias=true"
                         , Run Date "%a %b %_d %Y %H:%M" "date" 10
                         , Run StdinReader
                         , Run Battery [ "--template" , "Batt: <acstatus>"
-                                      , "-L", "10", "-H", "80", "--normal", "green", "--high", "red"
+                                      , "-L", "10", "-H", "80", "--normal", "green", "--low", "red"
                                       , "--" -- Battery specific options
                                       , "-o", "<left>% (<timeleft>)" -- discharging
                                       , "-O", "<fc=#dAA520>Charging</fc>" -- AC "on" status
