@@ -15,6 +15,10 @@
 * [xnomad, xmobar tips](https://beginners-guide-to-xmonad.readthedocs.io/intro.html)
 * [Haskell general xmonah.hs congif tips](https://wiki.haskell.org/Xmonad/General_xmonad.hs_config_tips)
 * [fzf](https://medium.com/better-programming/boost-your-command-line-productivity-with-fuzzy-finder-985aa162ba5d#9ce6): some customisation tips and tricks
+* [VimAwesome](https://vimawesome.com/)
+* [RXVT unicocde](https://addy-dclxvi.github.io/post/configuring-urxvt/) inspiration.
+* [Rxvt-unicode](https://wiki.archlinux.org/index.php/Rxvt-unicode#Reload_the_config) set-up wiki by Arch Linux.
+* [urxvt](https://gitlab.com/Abdullah/cfg/-/blob/master/etc/.Xresources) set-up
 
 ### To look into:
 * taking screenshots: https://github.com/supki/xmonad-screenshot
@@ -56,3 +60,7 @@
 
 ### Use fzf
 - `CTRL+T` show contents of current directory
+
+### Configure vim
+- Gloabal settings in `/etc/vim/vimrc` (`vimrc` in this repository)
+- User settings in `.vimrc`, see also this [guide](https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/).
