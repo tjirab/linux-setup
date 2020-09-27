@@ -50,6 +50,9 @@
 - `vim ~/.Xdefaults` and add your config
 - `xrdb -merge .Xdefaults`
 - close existing terminal and restart
+- theme from [dotshare.it](http://dotshare.it/dots/8359/)
+
+Reloading the config: `xrdb -load ~/.Xresources`. When opening new terminal, config should be applied.
 
 ### How to change default terminal
 - [Source](https://itsfoss.com/change-default-terminal-ubuntu/)
